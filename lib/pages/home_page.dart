@@ -104,8 +104,10 @@ class _HomePageState extends State<HomePage> {
             MaterialPageRoute(builder: (context) => UrunlerPage()),
           );
           setState(() {});
+          
         },
-        child: Icon(Icons.add),
+        backgroundColor: Colors.deepOrange,
+        child: Icon(Icons.add, color: Colors.white),
       ),
     );
   }
